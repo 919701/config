@@ -7,4 +7,4 @@ licensing-service:
     SPRING_PROFILES_ACTIVE: "dev"
     SPRING_CLOUD_CONFIG_URI: https://configserver:8071
 server:
-  port: 0
+  port: 8080
