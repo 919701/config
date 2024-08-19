@@ -1,3 +1,4 @@
+NAME: DEV_GIT_PROFILE
 licensing-service:
   image: ru/vsat/licensing-service-0.0.1-SNAPSHOT.jar
   ports:
