@@ -1,5 +1,3 @@
-server:
-  port: 8081
 spring:
   application.name: organization-service
   profiles:
@@ -40,3 +38,5 @@ management:
     env:
       enabled: true
       show-values: always
+server:
+  port: 8081
