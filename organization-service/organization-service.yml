@@ -8,7 +8,7 @@ spring:
     import: 'optional:configserver:'
   cloud:
     config:
-      uri: http://localhost:8071
+      uri: https://localhost:8071
       fail-fast: true
   datasource:
     url: jdbc:postgresql://localhost:5432/organization_db
@@ -25,7 +25,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8070/eureka/
+      defaultZone: https://localhost:8070/eureka/
   instance:
     prefer-ip-address: true
 management:
