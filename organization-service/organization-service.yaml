@@ -1,5 +1,6 @@
 name: DEFAULT GIT PROFILE
-datasource:
-  url: jdbc:postgresql://localhost:5432/organization_db
-  username: admin
-  password: password
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/organization_db
+    username: admin
+    password: password
